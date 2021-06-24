@@ -5,7 +5,7 @@ using namespace ens::test;
 
 int main()
 {
-    ZDT2<> ZDT_THREE(300);
+    ZDT3<> ZDT_THREE(300);
     arma::arma_rng::set_seed_random();
 
     typedef decltype(ZDT_THREE.objectiveF1) ObjectiveTypeA;
