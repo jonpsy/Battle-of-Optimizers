@@ -68,7 +68,7 @@ int main()
   duration<double, std::milli> moead_ms_double = t2_1 - t1_1;
   std::cout.precision(10);
   std::cout << "==============================================" << std::endl;
-  std::cout << "Speed in milliseconds for ZDT4" << std::endl;
+  std::cout << "Speed in milliseconds for ZDT3" << std::endl;
   std::cout << "NSGA2: " << nsga2_ms_double.count() << " ms or " << nsga2_ms_double.count() / 1000 << " seconds." << std::endl;
   std::cout << "MOEAD: " << moead_ms_double.count() << " ms or " << moead_ms_double.count() / 1000 << " seconds." << std::endl;
   std::cout << "MOEAD is faster than NSGA2 by: " << nsga2_ms_double.count() / moead_ms_double.count()  << " times!" << std::endl;
